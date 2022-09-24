@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+:root {
+    --bg-black: #000000e6;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+    --bg-black-900: #f2f2fc;
+    --bg-black-50: #e8dfec;
+    --bg-blacck-100: #fdf9ff;
+    --bg-orange: #ec1839;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-black);
+    color: white;
+
+}
+.container{
+    max-width: 1700px;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+.btn {
+    font-size: 18px;
+    background-color: red;
+    padding: 15px 22px;
+    font-weight: 600;
+    /* margin: 41px 0px; */
+    color: white;
+    border-radius: 25px;
+}
+
+/* *********************************aside*********************************** */
+
+aside.aside_bar {
+    width: 320px;
+    background: grey;
+    height: 100%;
+    padding: 36px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid var(--bg-black-50);
+}
+
+section.headSect {
+    position: fixed;
+    left: 320px;
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+}
+
+ul.nav_links {
+    list-style: none;
+}
+
+ul.socials {
+    list-style-type: none;
+}
+
+li.nav_li {
+    margin-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid var(--bg-black-50);
+    padding: 4px 15px;
+
+}
+
+.nav_li a {
+    color: var(--text-black-900);
+    border-bottom: black;
+    font-size: 16px;
+}
+.nav_li a.active{
+    color: var(--bg-orange);
+}
+
+.nav_li a i {
+    margin-right: 11px;
+}
+button.toggler {
+    position: fixed;
+    left: 320px;
+    width: 40px;
+    height: 30px;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid var(--bg-black-50);
+    background-color: var(--bg-blacck-100);
+    display: none;
+}
+
+.headSect .row {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 30px;
+
+}
+
+
+h2.helloTxt {
+    font-size: 29px;
+    font-weight: 700;
+}
+span.nameClass {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--bg-orange);
+    font-family: 'Clicker Script', cursive;
+}
+h3.proffesion {
+    font-size: 30px;
+}
+span.typing{
+    color: var(--bg-orange);
+}
+p.para {
+    font-size: 20px;
+    margin: 0px 0px 24px 0px;
+
+}
+
+.home_img {
+    position: relative;
+}
+
+.home_img::after{
+    content: '';
+    position: absolute;
+    right: -54px;
+    bottom: -78px;
+    height: 70px;
+    width: 70px;
+    border-bottom: 10px solid var(--bg-orange);
+    border-right: 10px solid var(--bg-orange);
+}
+
+.home_img::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    height: 50px;
+    width: 50px;
+    border-top: 10px solid var(--bg-orange);
+    border-left: 10px solid var(--bg-orange);
+}
