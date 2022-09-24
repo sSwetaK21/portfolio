@@ -171,3 +171,16 @@ p.para {
     border-top: 10px solid var(--bg-orange);
     border-left: 10px solid var(--bg-orange);
 }
+
+.socials li {
+    margin: 10;
+    margin: 10px;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: white;
+}
+.aside_footer {
+    margin-bottom: 5em;
+}
