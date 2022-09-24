@@ -29,7 +29,7 @@ body {
     width: 100%;
 }
 
-.d-flex {
+.d_flex {
     display: flex;
 }
 
@@ -91,7 +91,8 @@ li.nav_li {
 .nav_li a {
     color: var(--text-black-900);
     border-bottom: black;
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: 700;
 }
 .nav_li a.active{
     color: var(--bg-orange);
@@ -180,6 +181,8 @@ p.para {
 .socials li a {
     text-decoration: none;
     color: white;
+    font-size: 22px;
+
 }
 .aside_footer {
     margin-bottom: 5em;
