@@ -38,15 +38,20 @@ a {
 }
 .btn {
     font-size: 18px;
-    background-color: red;
+    background-color: var(--bg-orange);
     padding: 15px 22px;
     font-weight: 600;
-    /* margin: 41px 0px; */
+    margin: 26px 0px;
     color: white;
     border-radius: 25px;
 }
 
 /* *********************************aside*********************************** */
+
+.logotitle {
+    font-size: 50px;
+    color: var(--bg-orange);
+}
 
 aside.aside_bar {
     width: 320px;
@@ -126,17 +131,17 @@ button.toggler {
 
 
 h2.helloTxt {
-    font-size: 29px;
+    font-size: 46px;
     font-weight: 700;
 }
 span.nameClass {
-    font-size: 45px;
+    font-size: 70px;
     font-weight: 700;
     color: var(--bg-orange);
     font-family: 'Clicker Script', cursive;
 }
 h3.proffesion {
-    font-size: 30px;
+    font-size: 46px;
 }
 span.typing{
     color: var(--bg-orange);
@@ -165,10 +170,10 @@ p.para {
 .home_img::before{
     content: '';
     position: absolute;
-    left: -20px;
-    top: -20px;
-    height: 50px;
-    width: 50px;
+    left: -48px;
+    top: -24px;
+    height: 70px;
+    width: 70px;
     border-top: 10px solid var(--bg-orange);
     border-left: 10px solid var(--bg-orange);
 }
@@ -186,4 +191,13 @@ p.para {
 }
 .aside_footer {
     margin-bottom: 5em;
+}
+
+.hireBtn {
+    color: white;
+    font-size: 22px;
+
+}
+.img-fluid {
+    width: 300px;
 }
